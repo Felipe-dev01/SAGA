@@ -8,3 +8,4 @@ function updateLabel() {
         rmLabel.textContent = "RM:";
     }
 }
+
