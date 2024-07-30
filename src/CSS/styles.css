@@ -86,6 +86,7 @@ footer {
     color: white;
     text-align: right;
     padding-right: 5px; /* Ajuste o padding para diminuir a altura */
+    padding-bottom: 5px;
     height: 35px;
     font-size: 0.8em; /* Diminua o tamanho da fonte se necessário */
 }
