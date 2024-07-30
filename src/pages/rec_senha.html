@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../imagens/SagaLogo.png" alt="Logo" class="logo">
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <h1>Recuperação de senha</h1>
+            <form>
+                <label for="role">Entrar como:</label>
+                <select id="role" name="role">
+                    <option value="aluno">Aluno</option>
+                    
+                </select>
+
+                <label for="etec-code">Cod. ETEC:</label>
+                <input type="text" id="etec-code" name="etec-code">
+
+                <label for="rm">RM:</label>
+                <input type="text" id="rm" name="rm">
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+
+                <button type="submit">Entrar</button>
+                <a href="#" id="reset-password">Fazer Login</a>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h6>Copyright © 2024 - All Rights Reserved - SAGA</h6>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
