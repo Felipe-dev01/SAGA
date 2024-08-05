@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="src/CSS/styles.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="login-container">
+            <img src="src/imagens/SagaLogo.png" alt="Logo" class="logo_login">
+            <h1>Login</h1>
+            <form>
+                <label for="role">Entrar como:</label>
+                <select id="role" name="role" onchange="updateRM()">
+                    <option value="aluno">Aluno</option>
+                    <option value="professor">Professor</option>
+                </select>
+
+                <label for="etec-code">Cod. ETEC:</label>
+                <input type="text" id="etec-code" name="etec-code">
+
+                <label for="rm" id="rm-label">RM:</label>
+                <input type="text" id="rm" name="rm">
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+
+                <button type="submit">Entrar</button>
+                <a href="src/pages/rec_senha.html" id="reset-password">Solicitar nova senha</a>
+            </form>
+        </div>
+    </main>
+    
+    <script src="src/SCRIPT/scripts.js"></script>
+</body>
+</html>
