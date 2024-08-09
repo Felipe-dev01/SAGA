@@ -15,7 +15,7 @@ body {
     /* Define a altura mínima como 100% da altura da janela */
 }
 
-.logo img {
+.logo_login{
     width: 50px;
     height: 50px;
 }
