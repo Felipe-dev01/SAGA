@@ -1,40 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
+    <!-- Define o tipo de documento como HTML5 -->
     <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a viewport para garantir que a página seja exibida corretamente em dispositivos móveis -->
     <title>Login</title>
+    <!-- Título da página -->
     <link rel="stylesheet" href="src/CSS/styles.css">
+    <!-- Vincula o arquivo CSS externo -->
 </head>
 <body>
-
+    <!-- Início do corpo da página -->
     <main>
+        <!-- Elemento principal da página -->
         <div class="login-container">
+            <!-- Container que centraliza o conteúdo do login -->
             <img src="src/imagens/SagaLogo.png" alt="Logo" class="logo_login">
+            <!-- Imagem do logo no topo do formulário -->
             <h1>Login</h1>
+            <!-- Título do formulário de login -->
             <form method="get">
+                <!-- Início do formulário de login -->
                 <label for="role">Entrar como:</label>
+                <!-- Rótulo para o campo de seleção de papel -->
                 <select id="role" name="role" onchange="updateRM()">
+                    <!-- Campo de seleção de papel (aluno, responsável, professor) -->
                     <option value="aluno">Aluno</option>
+                    <!-- Opção "Aluno" -->
                     <option value="responsavel">Responsável</option>
+                    <!-- Opção "Responsável" -->
                     <option value="professor">Professor</option>
+                    <!-- Opção "Professor" -->
                 </select>
 
                 <label for="etec-code">Cod. ETEC:</label>
+                <!-- Rótulo para o campo de código da ETEC -->
                 <input type="text" id="etec-code" name="etec-code">
+                <!-- Campo de entrada para o código da ETEC -->
 
                 <label for="rm" id="rm-label">RM:</label>
+                <!-- Rótulo para o campo RM -->
                 <input type="text" id="rm" name="rm">
+                <!-- Campo de entrada para o RM -->
 
                 <label for="password">Senha:</label>
+                <!-- Rótulo para o campo de senha -->
                 <input type="password" id="password" name="password">
+                <!-- Campo de entrada para a senha -->
 
                 <button type="submit">Entrar</button>
+                <!-- Botão de envio do formulário -->
+
                 <a href="src/pages/rec_senha.html" id="reset-password">Solicitar nova senha</a>
+                <!-- Link para solicitar uma nova senha -->
             </form>
+            <!-- Fim do formulário de login -->
         </div>
+        <!-- Fim do container de login -->
     </main>
-    
+    <!-- Fim do elemento principal -->
     <script src="src/SCRIPT/scripts.js"></script>
+    <!-- Vincula o arquivo JavaScript externo -->
 </body>
 </html>
