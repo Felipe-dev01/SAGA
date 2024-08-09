@@ -15,6 +15,11 @@ body {
     /* Define a altura mínima como 100% da altura da janela */
 }
 
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
 main {
     flex: 1;
     /* Faz com que o main ocupe o espaço restante disponível */
