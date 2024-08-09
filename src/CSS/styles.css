@@ -15,9 +15,10 @@ body {
     /* Define a altura mínima como 100% da altura da janela */
 }
 
-.logo_login{
-    width: 200px;
+.logo {
+    width: 50px; /* Ajuste a altura da logo se necessário */
 }
+
 
 main {
     flex: 1;
