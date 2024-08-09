@@ -1,85 +1,109 @@
 body {
     font-family: Arial, sans-serif;
+    /* Define a fonte padrão como Arial */
     margin: 0;
+    /* Remove margens padrão do body */
     padding: 0;
+    /* Remove preenchimento padrão do body */
     background-color: #f0f0f0;
+    /* Define a cor de fundo da página */
     display: flex;
+    /* Define um layout flexível */
     flex-direction: column;
+    /* Organiza o conteúdo em coluna */
     min-height: 100vh;
-}
-
-
-.logo {
-    width: 50px; /* Ajuste a altura da logo se necessário */
-}
-
-.logo_login{
-    width: 200px;
+    /* Define a altura mínima como 100% da altura da janela */
 }
 
 main {
     flex: 1;
+    /* Faz com que o main ocupe o espaço restante disponível */
     display: flex;
+    /* Define um layout flexível */
     justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
     align-items: center;
+    /* Centraliza o conteúdo verticalmente */
 }
 
 .login-container {
     background: white;
+    /* Define a cor de fundo como branco */
     padding: 20px;
+    /* Adiciona preenchimento interno */
     border-radius: 8px;
+    /* Define bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra ao redor do container */
     width: 450px;
+    /* Define a largura do container */
     text-align: center;
+    /* Centraliza o texto dentro do container */
 }
 
 .login-container h1 {
     margin-bottom: 20px;
+    /* Adiciona uma margem inferior ao título */
 }
 
 .login-container form {
     display: flex;
+    /* Define um layout flexível */
     flex-direction: column;
+    /* Organiza o conteúdo em coluna */
 }
 
 .login-container label {
     margin-bottom: 5px;
+    /* Adiciona uma margem inferior ao rótulo */
     text-align: left;
+    /* Alinha o texto à esquerda */
 }
 
- .login-container input,
+.login-container input,
 .login-container select {
     margin-bottom: 15px;
+    /* Adiciona uma margem inferior aos campos */
     padding: 10px;
+    /* Adiciona preenchimento interno aos campos */
     border: 1px solid #ccc;
+    /* Define a borda dos campos */
     border-radius: 4px;   
+    /* Define bordas arredondadas */
 }
 
 .login-container button {
     padding: 10px;
+    /* Adiciona preenchimento interno ao botão */
     background-color: #0B0086;
+    /* Define a cor de fundo do botão */
     color: white;
+    /* Define a cor do texto do botão */
     border: none;
+    /* Remove a borda padrão do botão */
     border-radius: 4px;
+    /* Define bordas arredondadas */
     cursor: pointer;
+    /* Altera o cursor para indicar que o botão é clicável */
 }
 
 .login-container button:hover {
     background-color: #070053;
+    /* Altera a cor de fundo do botão quando o mouse está sobre ele */
 }
 
 #reset-password {
     display: block;
+    /* Define o link como um bloco para que a margem superior funcione corretamente */
     margin-top: 10px;
+    /* Adiciona uma margem superior ao link */
     color: #0B0086;
+    /* Define a cor do link */
     text-decoration: none;
+    /* Remove a sublinhado padrão do link */
 }
 
 #reset-password:hover {
     text-decoration: underline;
+    /* Adiciona sublinhado ao link quando o mouse está sobre ele */
 }
-
-.login-input{
-    width: 10px;
-}
-
