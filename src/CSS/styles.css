@@ -15,9 +15,8 @@ body {
     /* Define a altura mínima como 100% da altura da janela */
 }
 
-.logo_login{
-    width: 50px;
-    height: 50px;
+.img.logo_login{
+    width: 140px;
 }
 
 main {
@@ -34,7 +33,7 @@ main {
 .login-container {
     background: white;
     /* Define a cor de fundo como branco */
-    padding: 20px;
+    padding: 15px;
     /* Adiciona preenchimento interno */
     border-radius: 8px;
     /* Define bordas arredondadas */
