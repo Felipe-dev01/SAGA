@@ -1,21 +1,21 @@
 {
-  "name": "SAGA - Sistema de Administração e Gestão Acadêmica",
-  "short_name": "SAGA",
-  "description": "Sistema de Administração e Gestão Acadêmica",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "icons": [
-    {
-      "src": "/scr/imagens/SagaLogo.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/scr/imagens/SagaLogo.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+    "name": "Login App",
+    "short_name": "Login",
+    "description": "Aplicativo de Login",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#f0f0f0",
+    "theme_color": "#0B0086",
+    "icons": [
+        {
+            "src": "src/imagens/SagaLogo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "src/imagens/SagaLogo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
