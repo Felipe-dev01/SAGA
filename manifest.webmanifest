@@ -1,5 +1,5 @@
 {
-    "short_name": "Saga",
+    "short_name": "Sobre a Faculdade iv2",
     "name": "aboutiv2",
     "start_url": ".",
     "display": "standalone",
@@ -10,7 +10,7 @@
     "description": "my site description",
     "icons": [
       {
-        "src": "images/logo.png",
+        "src": "/src/cimages/SagaLogo.png",
         "type": "image/png",
         "sizes": "2560x2560"
       }

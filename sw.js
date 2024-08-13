@@ -7,11 +7,7 @@ self.addEventListener('install', function(event){
                 './',
                 './index.html',
                 './manifest.webmanifest',
-                './index.js',
-                './src/CSS/styles.css',
-                './src/SCRIPT/scripts.js',
-                './src/iamgens/SagaLogo.png',
-                './src/pages/rec_senha.html'
+                './index.js'
             ])
         })
     )
