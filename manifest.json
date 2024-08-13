@@ -9,7 +9,7 @@
       "description": "my site description",
       "icons": [
           {
-              "src": "/src/cimages/SagaLogo.png",
+              "src": "/src/images/SagaLogo.png",
               "type": "image/png",
               "sizes": "2560x2560"
           }
