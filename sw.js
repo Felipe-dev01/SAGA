@@ -3,7 +3,7 @@ const cacheName = 'portfolio'
 self.addEventListener('install', function(event){
     event.waitUntil(
         caches.open(cacheName).then(function (cache){
-            cache.addAll([
+            return cache.addAll([
                 './',
                 './index.html',
                 './manifest.json',
@@ -40,7 +40,7 @@ async function networkAndCache(req){
     const cache = await caches.open(cacheName);
     try{
         const refresh = await fetch(req)
-        await cache.put(req, fresh.clone())
+        await cache.put(req, refresh.clone())
         return refresh
     } catch(e){
         const cached = await cache.match(req);
