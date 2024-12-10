@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAGA</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <img src="imagens/LogoSAGA.png" class="logo" style="width: 150px;">
+        <h2>SAGA - Login</h2>
+
+        <form id="loginForm">
+            <label for="tipoUser">Entrar como:</label>
+            <select id="tipoUser">
+                <option value="aluno">Aluno</option>
+                <option value="professor">Professor</option>
+            </select>
+
+            <label for="codETEC">Cod. ETEC:</label>
+            <input type="text" id="codETEC" placeholder="Digite o código da ETEC">
+
+            <label for="rmOuLogin" id="rmOuLoginLabel">RM:</label>
+            <input type="text" id="rmOuLogin" placeholder="Digite o RM">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite a senha">
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <a href="" class="esqueceuSenha">Solicitar nova senha</a>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
