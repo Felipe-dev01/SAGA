@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAGA - Recuperação de Senha</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <img src="imagens/LogoSAGA.png" class="logo" alt="Logo SAGA">
+        <h2>SAGA - Recuperação de Senha</h2>
+
+        <form id="recuperacaoForm">
+            <label for="tipoUserRecuperacao">Entrar como:</label>
+            <select id="tipoUserRecuperacao">
+                <option value="aluno">Aluno</option>
+                <option value="professor">Professor</option>
+            </select>
+
+            <label for="codETECRecuperacao">Cod. ETEC:</label>
+            <input type="text" id="codETECRecuperacao" placeholder="Digite o código da ETEC">
+
+            <label for="cpf" id="cpfLabel">CPF do aluno:</label>
+            <input type="text" id="cpf" placeholder="Digite o CPF do aluno">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <a href="index.html" class="esqueceuSenha">Fazer Login</a>
+    </div>
+
+    <script src="script/recuperacao.js" defer></script>
+</body>
+
+</html>
