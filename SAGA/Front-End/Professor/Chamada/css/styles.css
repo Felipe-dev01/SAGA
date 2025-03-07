@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: url('https://etectiete.com.br/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-20-at-09.20.36.jpeg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.status.presente {
+    background-color: green;
+}
+
+.status.falta {
+    background-color: red;
+}
+
+.status.atraso {
+    background-color: orange;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.navbar {
+    background: #13193D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    width: 100%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+main table button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+    flex: 1;
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.table-container {
+    background: rgba(19, 25, 61, 0.925);
+    padding: 30px;
+    margin: 20px auto; /* Reduzi a margem superior */
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.lancar {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #13193D;
+    font-size: 14px;
+    width: 100%;
+}
+
