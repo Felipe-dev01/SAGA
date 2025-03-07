@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 * {
     margin: 0;
@@ -68,14 +68,14 @@ h1 {
 .table-container {
     background: rgba(19, 25, 61, 0.925);
     padding: 30px;
-    margin: 20px auto; /* Reduzi a margem superior */
+    margin: 20px auto;
     width: 70%;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 85px;
 }
 
-/*Tabela---->*/
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -97,7 +97,7 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-/*-------->*/
+
 
 
 footer {
@@ -107,4 +107,39 @@ footer {
     font-size: 14px;
     width: 100%;
 }
+ */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background: transparent; /* Fundo transparente */
+}
 
+thead tr {
+    background-color: white; /* Mantém o cabeçalho branco */
+    color: black;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tbody tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    background: transparent; /* Fundo transparente para as linhas */
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+.content-box h1 {
+    padding-bottom: 15px;
+}
+
+.content-box{
+    padding-top: 15px;
+}
