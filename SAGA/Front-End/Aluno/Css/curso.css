@@ -1,35 +1,49 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-radius: 10px;
-    overflow: hidden;
-    background: transparent; /* Fundo transparente */
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-thead tr {
-    background-color: white; /* Mantém o cabeçalho branco */
-    color: black;
-    font-weight: bold;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAGA - Curso</title>
+    <link rel="stylesheet" href="../Css/base.css">
+    <link rel="stylesheet" href="../Css/curso.css">
+</head>
 
-th, td {
-    padding: 15px;
-    text-align: center;
-}
+<body>
+    <header class="navbar">
+        <img src="../Img/logo.svg" alt="SAGA Logo">
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Frequência</a>
+            <a href="#">Boletim</a>
+            <a href="#">Curso</a>
+        </nav>
+        <div class="profile-icon"></div>
+    </header>
 
-tbody tr {
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-    background: transparent; /* Fundo transparente para as linhas */
-}
+    <main class="container">
+        <div class="content-box">
+            <h1>Curso</h1>
 
-tbody tr:last-child {
-    border-bottom: none;
-}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matéria</th>
+                        <th>Carga Horária</th>
+                        <th>Total de aulas</th>
+                    </tr>
+                </thead>
+                <tbody id="courseTableBody">
+                    <!-- Dados serão inseridos pelo JS -->
+                </tbody>
+            </table>
+        </div>
+    </main>
 
-.content-box h1 {
-    padding-bottom: 15px;
-}
+    <footer>
+        Copyright &copy; 2024 - All Rights Reserved - SAGA
+    </footer>
+    <script src="../Js/curso.js"></script>
+</body>
 
-.content-box{
-    padding-top: 15px;
-}
+</html>
